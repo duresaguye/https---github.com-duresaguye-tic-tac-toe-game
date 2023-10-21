@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik Tac Toe</title>
+    <link rel="shortcut icon" href="img/tic-tac-toe.png" type="image/x-icon">
+    <link rel="stylesheet" href="styel.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <div id="b1" val rV></div>
+            <div id="b2" val rV></div>
+            <div id="b3" val rV></div>
+            <div id="b4" val rV></div>
+            <div id="b5" val rV></div>
+            <div id="b6" val rV></div>
+            <div id="b7" val rV></div>
+            <div id="b8" val rV></div>
+            <div id="b9" val rV></div>
+
+        </div>
+        <div class="scoreContainer">
+            <div class="sc"></div>
+            <div class="result">
+                <div>&#10005;<span id="xScore">0</span></div>
+                <div>O<span id="oScore">0</span></div>
+                <div>Tie<span id="draw">0</span></div>
+            </div>
+            <button onclick="newGame()"> Reset</button>
+            
+        </div>
+        
+    </div>
+    <div class="restart">
+        <div class="win"></div>
+        <span>Click anywhere to continue</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
